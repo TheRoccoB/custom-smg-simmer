@@ -5,10 +5,6 @@
 
         id: 'smg', //unique identifier
 
-        assetBase_string: 'http://localhost:8085/static/customSite',
-
-        canon_bool : false, //is this the main simmer site? This should always be set to false.
-
         theme_obj : {
             primary: '#23a729',
             secondary: '#b0bec5',
@@ -18,14 +14,14 @@
 
         // navbar
         navbar_logo_url: '/images/gamedev.png',
-        navbar_logo_HTML: `<img src="{{assetBase_string}}{{hero_logo_url}}" style="height: 25px;">`,
+        navbar_logo_HTML: `<img src="{{baseUrl}}/{{hero_logo_url}}" style="height: 25px;">`,
         navbar_sitename_HTML: 'smg',
 
         // hero
         hero_background_color: '#071A32',
         hero_background_url: '/images/smg_background.jpg',
         hero_logo_url: '/images/gamedev.png',
-        hero_logo_HTML: '<img style="width:125px;height:125px;" src="{{assetBase_string}}{{hero_logo_url}}">',
+        hero_logo_HTML: '<img style="width:125px;height:125px;" src="{{baseUrl}}/{{hero_logo_url}}">',
         hero_title_HTML: `sharemygame<span style="font-size:34px">.com</span>`,
         hero_description_HTML: `the simple way to share games from <a href="https://gamedev.tv" target="_blank" style="font-weight: bold;">gamedev.tv</a>!`,
 
