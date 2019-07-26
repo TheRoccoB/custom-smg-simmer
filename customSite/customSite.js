@@ -127,7 +127,4 @@
         // version: shown in footer, useful for debugging version of this script.
         version_string: 'smg1.0',
     }
-
-    console.log('loaded custom site from github')
-
 })();
