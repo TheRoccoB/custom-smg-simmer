@@ -12,22 +12,40 @@
             error: '#b71c1c'
         },
 
-        // navbar
-        navbar_logo_url: '/images/gamedev.png',
-        navbar_logo_HTML: `<img src="{{baseUrl}}/{{hero_logo_url}}" style="height: 25px;">`,
-        navbar_sitename_HTML: 'smg',
+        // navbar_logo_url: '/images/gamedev.png',
+        navbar_logo_HTML: `<img src="{{baseUrl}}images/home_icon.svg" style="height: 25px;">`,
+        // navbar_hideTitle_boolean: true,
+        navbar_sitename_HTML: ' ',
+        navbar_style_object:{
+            'position':'relative',
+            'background-color': 'white',
+            'transform': 'translate(0,0)',
+            'left': 0
+
+        },
+
+        scriptsAfterAppMounted_array: [
+            'https://d1dewqfmv9j5d4.cloudfront.net/gamedevtv-header.js'
+        ],
+        stylesheetsBeforeAppMounted_array: [
+            'https://d1dewqfmv9j5d4.cloudfront.net/gamedevtv-header.css'
+        ],
+        navbar_showLowerOnFrontPage_bool: true,
+
+        beforeNavbar_html: '<div id="gdtv_header_inject" style="max-width:1440px;margin-left:auto;margin-right:auto;"><div style="height:66px;background-color:#23A729;"></div></div></div>',
+
 
         // hero
         hero_background_color: '#071A32',
         hero_background_url: '/images/smg_background.jpg',
         hero_logo_url: '/images/gamedev.png',
         hero_logo_HTML: '<img style="width:125px;height:125px;" src="{{baseUrl}}/{{hero_logo_url}}">',
-        hero_title_HTML: `sharemygame<span style="font-size:34px">.com</span>`,
-        hero_description_HTML: `the simple way to share games from <a href="https://gamedev.tv" target="_blank" style="font-weight: bold;">gamedev.tv</a>!`,
+        hero_title_HTML: `ShareMyGame<span style="font-size:34px">.com</span>`,
+        hero_description_HTML: `the simple way to share games from <a href="https://gamedev.tv" target="_blank" style="font-weight: bold;">GameDev.tv</a>!`,
 
         // sidebar
-        sidebar_description_HTML: `<p>sharemygame.com is a website by the <a href="https://gamedev.tv">gamedev.tv</a> team for featuring games created by our students!</p>
-    <p>sharemygame's technology is powered by <a href="https://simmer.io" style="font-weight:400">simmer.io</a>.</p>`,
+        sidebar_description_HTML: `<p>ShareMyGame.com is a website by the <a href="https://gamedev.tv">GameDev.tv</a> team for featuring games created by our students!</p>
+    <p>ShareMyGame.com's technology is powered by <a href="https://simmer.io" style="font-weight:400">simmer.io</a>.</p>`,
 
         sidebar_social_obj:{
             discord: 'https://discordapp.com/invite/eUSFZdJ',

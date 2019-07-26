@@ -7,7 +7,7 @@
         logo_url: '/images/gamedev.png',
 
         loading_background_color: '#001C30',
-        loading_title_HTML: 'sharemygame',
+        loading_title_HTML: 'ShareMyGame',
         loading_first_string: 'The simple way to share games from GameDev.tv',
 
         lowerThird_color1: '#09460C',
