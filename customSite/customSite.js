@@ -21,8 +21,8 @@
             'background-color': 'white',
             'transform': 'translate(0,0)',
             'left': 0
-
         },
+        navbar_alwaysHideSpacer_bool:true,
 
         scriptsAfterAppMounted_array: [
             'https://d1dewqfmv9j5d4.cloudfront.net/gamedevtv-header.js'
