@@ -12,9 +12,10 @@
             error: '#b71c1c'
         },
 
+        favicon_url: 'images/favicon.ico',
+
         // navbar_logo_url: '/images/gamedev.png',
         navbar_logo_HTML: `<img src="{{baseUrl}}images/home_icon.svg" style="height: 25px;">`,
-        // navbar_hideTitle_boolean: true,
         navbar_sitename_HTML: ' ',
         navbar_style_object:{
             'position':'relative',
@@ -23,6 +24,9 @@
             'left': 0
         },
         navbar_alwaysHideSpacer_bool:true,
+        navbar_showLowerOnFrontPage_bool: true,
+
+        beforeNavbar_html: '<div id="gdtv_header_inject" style="max-width:1440px;margin-left:auto;margin-right:auto;"><div style="height:66px;background-color:#23A729;"></div></div></div>',
 
         scriptsAfterAppMounted_array: [
             'https://d1dewqfmv9j5d4.cloudfront.net/gamedevtv-header.js'
@@ -30,10 +34,6 @@
         stylesheetsBeforeAppMounted_array: [
             'https://d1dewqfmv9j5d4.cloudfront.net/gamedevtv-header.css'
         ],
-        navbar_showLowerOnFrontPage_bool: true,
-
-        beforeNavbar_html: '<div id="gdtv_header_inject" style="max-width:1440px;margin-left:auto;margin-right:auto;"><div style="height:66px;background-color:#23A729;"></div></div></div>',
-
 
         // hero
         hero_background_color: '#071A32',
