@@ -4,6 +4,7 @@
         title: 'ShareMyGame by GameDev.tv',
 
         id: 'smg', //unique identifier
+        siteName: 'ShareMyGame.com',
 
         theme_obj : {
             primary: '#23a729',
@@ -26,7 +27,7 @@
         navbar_alwaysHideSpacer_bool:true,
         navbar_showLowerOnFrontPage_bool: true,
 
-        beforeNavbar_html: '<div id="gdtv_header_inject" style="max-width:1440px;margin-left:auto;margin-right:auto;"><div style="height:66px;background-color:#23A729;"></div></div></div>',
+        beforeNavbar_html: '<div id="gdtv_header_inject" style="max-width:1440px;max-height:66px;margin-left:auto;margin-right:auto;"><div style="height:66px;background-color:#23A729;"></div></div></div>',
 
         scriptsAfterAppMounted_array: [
             'https://d1dewqfmv9j5d4.cloudfront.net/gamedevtv-header.js'
@@ -106,7 +107,7 @@
                     text:'FAQ'
                 },
                 {
-                    relativeUrl:'/support',
+                    externalUrl:'https://community.gamedev.tv/tags/c/other/talk/sharemygame',
                     text:'Support'
                 },
                 {
@@ -136,6 +137,19 @@
                 isLatest:true
             }
         ],
+
+        privacy_annotation_html : `ShareMyGame.com is operated by SIMMER.io. SIMMER.io's privacy policy is listed below. You may also review GameDev.tv's <a href="https://www.gamedev.tv/privacy-policy">privacy policy</a> for additional information about your privacy.`,
+        tos_annotation_html : `ShareMyGame.com is operated by SIMMER.io. SIMMER.io's terms of service are listed below. You may also review GameDev.tv's <a href="https://www.gamedev.tv/privacy-policy">privacy policy</a> for additional information about your privacy.`,
+
+        welcomeEmail_text:{
+            subject: 'Welcome to ShareMyGame.com',
+            text: `Congratulations on signing up for ShareMyGame.com!
+
+We're all excited to see what games you put up at https://ShareMyGame.com/upload.
+
+Cheers,
+The GameDev.tv Team & SIMMER.io`
+        },
 
         appfooter_copyright_HTML:'&copy; 2019 EmbraceIT Ltd.',
 
