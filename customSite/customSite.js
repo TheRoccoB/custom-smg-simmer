@@ -158,5 +158,8 @@ The GameDev.tv Team & SIMMER.io`
 
         // version: shown in footer, useful for debugging version of this script.
         version_string: 'smg1.0',
+
+        // omit if you don't want to show silly cookie notice
+        cookie_notice_html: '<div>This site uses cookies to run optimally. By continuing to use this site, you consent to the our use of cookies.</div><div style="font-weight:bold">Details: <a href="/privacy" target="_blank">Privacy</a> | <a href="/gdpr" target="_blank">GDPR</a> | <a href="/tos" target="_blank">Terms</a>.</div>'
     }
 })();
