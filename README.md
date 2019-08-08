@@ -42,6 +42,6 @@ You can put any custom images in the customSite/images directory. Usually you'll
 
 This repo is set up with github pages. Any checkins to master will automatically be deployed to production.
 
-
+Note: [it takes 10 minutes](https://webapps.stackexchange.com/questions/44871/caching-assets-in-github-pages-github-io) for the github cache to invalidate (and your changes to go live)
 
 
