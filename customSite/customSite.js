@@ -13,6 +13,9 @@
             error: '#b71c1c'
         },
 
+        howToYoutubeId_string: 'XWE9rzz3uV0',
+        longerHowToYoutubeId_string: 'ziiIlpjeMVY',
+
         favicon_url: 'images/favicon.ico',
 
         // navbar_logo_url: '/images/gamedev.png',
