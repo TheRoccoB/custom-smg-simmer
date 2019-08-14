@@ -144,6 +144,12 @@
         privacy_annotation_html : `ShareMyGame.com is operated by SIMMER.io. SIMMER.io's privacy policy is listed below. You may also review GameDev.tv's <a href="https://www.gamedev.tv/privacy-policy">privacy policy</a> for additional information about your privacy.`,
         tos_annotation_html : `ShareMyGame.com is operated by SIMMER.io. SIMMER.io's terms of service are listed below. You may also review GameDev.tv's <a href="https://www.gamedev.tv/privacy-policy">privacy policy</a> for additional information about your privacy.`,
 
+
+        emailPreferencesRequired_bool: true,
+
+        signup_emailOptInText_string:"Sign up for GameDev.tv's mailing list.",
+        signup_emailPrechecked_bool: false,
+
         welcomeEmail_text:{
             subject: 'Welcome to ShareMyGame.com',
             text: `Congratulations on signing up for ShareMyGame.com!
