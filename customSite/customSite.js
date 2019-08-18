@@ -1,9 +1,10 @@
 (() => {
 
     window.customSite = {
+        id: 'smg', //unique identifier
+
         title: 'ShareMyGame by GameDev.tv',
 
-        id: 'smg', //unique identifier
         siteName: 'ShareMyGame.com',
 
         theme_obj : {
@@ -141,6 +142,7 @@
             }
         ],
 
+        faq_annotation_html: `ShareMyGame.com is operated by SIMMER.io. Most of the items in the FAQ below cover both sites.`,
         privacy_annotation_html : `ShareMyGame.com is operated by SIMMER.io. SIMMER.io's privacy policy is listed below. You may also review GameDev.tv's <a href="https://www.gamedev.tv/privacy-policy">privacy policy</a> for additional information about your privacy.`,
         tos_annotation_html : `ShareMyGame.com is operated by SIMMER.io. SIMMER.io's terms of service are listed below. You may also review GameDev.tv's <a href="https://www.gamedev.tv/privacy-policy">privacy policy</a> for additional information about your privacy.`,
 
