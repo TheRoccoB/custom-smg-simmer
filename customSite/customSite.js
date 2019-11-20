@@ -14,8 +14,8 @@
             error: '#b71c1c'
         },
 
-        howToYoutubeId_string: 'XWE9rzz3uV0',
-        longerHowToYoutubeId_string: 'ziiIlpjeMVY',
+        howToYoutubeId_string: '-0n_JVtGNdg',
+        longerHowToYoutubeId_string: '-0n_JVtGNdg',
 
         favicon_url: 'images/favicon.ico',
 
@@ -71,7 +71,7 @@
         toplinkbar_links_obj:{
             links: [
                 {
-                    externalUrl:'https://www.gamedev.tv/about',
+                    externalUrl:'https://info.gamedev.tv/about',
                     text:'about'
                 },
                 {
@@ -103,7 +103,7 @@
                 },
 
                 {
-                    externalUrl:'https://www.gamedev.tv/about',
+                    externalUrl:'https://info.gamedev.tv/about',
                     text:'About'
                 },
                 {
@@ -168,7 +168,7 @@ The GameDev.tv Team & SIMMER.io`
         upload_dropzone_background: 'radial-gradient(circle, rgba(17,17,17,1) 0%, #0D700C 100%, #0D700C 100%)',
 
         // version: shown in footer, useful for debugging version of this script.
-        version_string: 'smg1.0',
+        version_string: 'smg1.0.1',
 
         // omit if you don't want to show silly cookie notice
         cookie_notice_html: '<div>This site uses cookies to run optimally. By continuing to use this site, you consent to the our use of cookies.</div><div style="font-weight:bold">Details: <a href="/privacy" target="_blank">Privacy</a> | <a href="/gdpr" target="_blank">GDPR</a> | <a href="/tos" target="_blank">Terms</a>.</div>'
