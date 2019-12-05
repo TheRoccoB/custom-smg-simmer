@@ -138,8 +138,14 @@
 
         collections_array: [
             {
+                name: 'featured-games',
+                useCache: true,
+                sampleLength:21
+            },
+            {
                 isLatest:true
-            }
+            },
+
         ],
 
         faq_annotation_html: `ShareMyGame.com is operated by SIMMER.io. Most of the items in the FAQ below cover both sites.`,
