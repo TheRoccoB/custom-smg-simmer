@@ -152,7 +152,6 @@
         privacy_annotation_html : `ShareMyGame.com is operated by SIMMER.io. SIMMER.io's privacy policy is listed below. You may also review GameDev.tv's <a href="https://www.gamedev.tv/privacy-policy">privacy policy</a> for additional information about your privacy.`,
         tos_annotation_html : `ShareMyGame.com is operated by SIMMER.io. SIMMER.io's terms of service are listed below. You may also review GameDev.tv's <a href="https://www.gamedev.tv/privacy-policy">privacy policy</a> for additional information about your privacy.`,
 
-
         emailPreferencesRequired_bool: true,
 
         signup_emailOptInText_string:"Sign up for GameDev.tv's mailing list.",
@@ -168,13 +167,13 @@ Cheers,
 The GameDev.tv Team & SIMMER.io`
         },
 
-        appfooter_copyright_HTML:'&copy; 2019 EmbraceIT Ltd.',
+        appfooter_copyright_HTML:`&copy; ${new Date().getFullYear()} EmbraceIT Ltd. / `,
 
         // upload page
         upload_dropzone_background: 'radial-gradient(circle, rgba(17,17,17,1) 0%, #0D700C 100%, #0D700C 100%)',
 
         // version: shown in footer, useful for debugging version of this script.
-        version_string: 'smg1.0.1',
+        version_string: 'smg1.0.2',
 
         // omit if you don't want to show silly cookie notice
         cookie_notice_html: '<div>This site uses cookies to run optimally. By continuing to use this site, you consent to the our use of cookies.</div><div style="font-weight:bold">Details: <a href="/privacy" target="_blank">Privacy</a> | <a href="/gdpr" target="_blank">GDPR</a> | <a href="/tos" target="_blank">Terms</a>.</div>'
